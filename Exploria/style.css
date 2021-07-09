@@ -1,0 +1,188 @@
+body{
+	background-color:#f4f4f4;
+}
+
+.konten{
+	background-color: white;
+}
+
+.bg-custom{
+	background-image: linear-gradient(to left, #2a5414 0%, #6ba914 51%);
+	border: none;
+	color: white;
+	padding: 8px 48px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	transition: 0.3s;
+}
+
+.bg-custom:hover{
+	background-image: linear-gradient(to left, #1f3c0f 0%, #52830d 51%);
+	color: white;
+}
+
+.bg-active{
+	background-color: transparent !important;
+	transition: 0.3s;
+	color: black !important;
+	border-bottom: 3px solid #85d318;
+	border-radius: 0%;
+}
+
+.navbar{
+	width: 100%;
+}
+
+.link-navbar{
+	color: black;
+	transition: 0.3s;
+}
+
+.link-navbar:hover{
+	color: black;
+}
+
+.nav-link:hover{
+	border-bottom: 3px solid #85d318;
+	border-radius: 0%;
+}
+
+.tebel-banget{
+	font-weight: 900;
+}
+
+.tebel-sedang{
+	font-weight: bold;
+}
+
+.desc{
+	max-width: 400px;
+}
+
+.judul1{
+	color: #053E1C;
+}
+
+.judul2{
+	color: #69A614;
+}
+
+.judul3{
+	color: black;
+	font-size: 10px;
+}
+
+.hr{
+	height: 5px;
+	width: 75px;
+	border-radius: 50px;
+	background-color: #69A614;
+}
+
+.button{
+	background-image: linear-gradient(to right, #2a5414 0%, #6ba914 49%);
+	border: none;
+	color: white;
+	padding: 16px 48px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	transition: 0.3s;
+}
+
+.button:hover{
+	background-image: linear-gradient(to right, #1f3c0f 0%, #52830d 49%);
+	color: white;
+}
+
+.gambar{
+	display: none;
+}
+
+.img{
+	width: 500px;
+	z-index: -1;
+}
+
+.judul-footer{
+	text-align: center;
+}
+
+.badge-primary{
+	
+}
+
+.desc-footer{
+	text-align: center;
+	list-style-type: none;
+}
+
+.bagian-footer{
+	background-color: #ededeb;
+	margin: 5px auto 5px auto;
+}
+
+.desc-footer2{
+	margin: 0 auto;
+	background-color: #404040;
+}
+
+.dropdown-menu{
+	margin: 700px;
+}
+
+.batas{
+	background-color: #f4f4f4;
+	border: 1px solid black;
+}
+
+
+.link-a{
+	color: #053E1C;
+}
+
+.link-a:hover{
+	color: #69A614;
+}
+
+.tengahin-tombol{
+	margin: 5px auto;
+}
+
+/*responsive*/
+@media screen and(max-width: 600px){
+	.img{
+		display: none;
+		width: 500px;
+	}
+
+	.gambar{
+		display: block;
+	}
+}
+
+@media screen and(max-width: 800px){
+	.img{
+		display: none;
+		width: 500px;
+	}
+
+	.gambar{
+		display: block;
+	}
+}
+
+@media screen and(max-width: 1199px){
+	.img{
+		width: 500px;
+		z-index: -1
+	}
+}
+
+@media screen and(max-width: 992px){
+	.img{
+		width: 300px;
+		z-index: -1
+	}
+}
